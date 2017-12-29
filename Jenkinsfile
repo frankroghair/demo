@@ -1,15 +1,15 @@
-pipeline 
+pipeline
 {
-  agent 
+  agent
   {
-    node 
+    node
     {
       label 'master'
     }
   }
-  stages 
+  stages
   {
-     stage('commit') 
+     stage('commit')
      {
          steps
          {
